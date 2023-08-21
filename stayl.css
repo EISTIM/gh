@@ -1,0 +1,49 @@
+
+body { 
+    background-color: blue; 
+    display: flex; 
+    flex-wrap: wrap; 
+} 
+ 
+.card { 
+    width: 400px; 
+    display: inline-block; 
+    border-radius: 10px; 
+    background-color: white; 
+    transition: 0.4s; 
+    margin: 20px; 
+    border: 1px solid #222222; 
+} 
+ 
+img { 
+    width: 100%; 
+    border-radius: 10px; 
+} 
+ 
+.text { 
+    padding: 20px; 
+} 
+ 
+h2 { 
+    font-size: 26px; 
+    color: gold; 
+} 
+ 
+p { 
+    color: gold; 
+} 
+ 
+a { 
+    background-color: hotpink; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    padding: 10px 20px; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    font-size: 14px; 
+} 
+.card:hover { 
+    width: 415px; 
+    box-shadow: 0 0 10px #222222; 
+}
+
